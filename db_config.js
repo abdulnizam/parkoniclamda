@@ -1,5 +1,5 @@
 var mysql      = require('mysql')
-var env = 'local'
+var env = 'dev'
 
 if(env == 'local')
 {
@@ -16,7 +16,7 @@ if(env == 'local')
 	    host     : 'valtransdb.cqlt28njzgkt.eu-west-1.rds.amazonaws.com',
 	    user     : 'valtransDB',
 	    password : 'ValTrans17',
-	    database: 'admin_valetapp'
+	    database: 'parkonic_dev'
 	}
 }
 var connection = mysql.createConnection($connection_info)
