@@ -1,0 +1,45 @@
+{
+  "name": "parkoniclamda",
+  "version": "1.0.0",
+  "description": "all parkonic api will be develop here.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valtransprojects/parkoniclamda.git"
+  },
+  "keywords": [
+    "parkonic",
+    "api",
+    "lambda",
+    "transport",
+    "traffic"
+  ],
+  "author": "Abdul Nizam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valtransprojects/parkoniclamda/issues"
+  },
+  "homepage": "https://github.com/valtransprojects/parkoniclamda#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "mysql": "^2.15.0",
+    "serverless-offline": "^3.16.0",
+    "serverless-webpack": "^4.2.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "package-json": "^4.0.1",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "serverless-http": "^1.5.2"
+  }
+}
