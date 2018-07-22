@@ -1,2 +1,2 @@
-# parkoniclamda
-all parkonic api will be develop here.
+# Research parkonic lamda
+Research parkonic api with lambda technology.
