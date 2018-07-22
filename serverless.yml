@@ -1,0 +1,28 @@
+
+service: serverless-lambda-express
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+functions:
+  users:
+    handler: handler.users
+    events:
+      - http:
+          method: get
+          path: usersList
+          integration: lambda
+    memorySize: 512
+  app:
+    handler: expressApi.api
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+custom:
+  serverless-offline:
+    resourceRoutes: true
